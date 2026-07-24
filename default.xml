@@ -652,7 +652,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio" remote="aosp" />
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" />
   <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" />
-  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk,sysui-studio" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces-lineage-23.2" remote="sado" groups="pdk,sysui-studio" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" />
   <project path="hardware/nxp/keymint" name="platform/hardware/nxp/keymint" groups="pdk" remote="aosp" />
@@ -1044,6 +1044,7 @@
   <project path="device/xiaomi/sm8350-common" name="LineageOS/android_device_xiaomi_sm8350-common" />
   <project path="kernel/xiaomi/sm8350" name="LineageOS/android_kernel_xiaomi_sm8350" />
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" />
+  <project path="vendor/xiaomi/miuicamera-mars" name="vendor_xiaomi_mars-miuicamera" remote="sado" />
   <project path="vendor/xiaomi/mars" name="proprietary_vendor_xiaomi_mars" remote="muppets" />
   <project path="vendor/xiaomi/sm8350-common" name="proprietary_vendor_xiaomi_sm8350-common" remote="muppets" />
 

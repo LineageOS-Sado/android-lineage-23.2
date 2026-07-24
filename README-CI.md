@@ -20,5 +20,7 @@ mka bacon
 ```
 
 CI runners need enough disk space for Android 16 sources and build output, Git
-LFS support, Java and the standard LineageOS build dependencies. Proprietary
-Xiaomi repositories are fetched from TheMuppets.
+LFS support, Java and the standard LineageOS build dependencies. `--git-lfs`
+is required because the mars MiuiCamera repository stores its patched APK in
+LFS. Device proprietary repositories are fetched from TheMuppets and
+LineageOS-Sado.
