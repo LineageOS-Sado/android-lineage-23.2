@@ -1050,12 +1050,14 @@
 
   <!-- Xiaomi fuxi and ishtar build repositories -->
   <project path="device/xiaomi/fuxi" name="android_device_xiaomi_fuxi" remote="sado" />
+  <project path="device/xiaomi/fuxi-miuicamera" name="android_device_xiaomi_fuxi-miuicamera" remote="sado" />
   <project path="device/xiaomi/ishtar" name="android_device_xiaomi_ishtar" remote="sado" />
   <project path="device/xiaomi/sm8550-common" name="android_device_xiaomi_sm8550-common" remote="sado" />
   <project path="kernel/xiaomi/sm8550" name="android_kernel_xiaomi_sm8550" remote="sado" />
   <project path="kernel/xiaomi/sm8550-devicetrees" name="android_kernel_xiaomi_sm8550-devicetrees" remote="sado" />
   <project path="kernel/xiaomi/sm8550-modules" name="android_kernel_xiaomi_sm8550-modules" remote="sado" />
   <project path="vendor/xiaomi/fuxi" name="proprietary_vendor_xiaomi_fuxi" remote="muppets" />
+  <project path="vendor/xiaomi/fuxi-miuicamera" name="proprietary_vendor_xiaomi_fuxi-miuicamera" remote="sado" />
   <project path="vendor/xiaomi/ishtar" name="proprietary_vendor_xiaomi_ishtar" remote="sado" />
   <project path="vendor/xiaomi/sm8550-common" name="proprietary_vendor_xiaomi_sm8550-common" remote="sado" />
 
