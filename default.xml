@@ -1059,6 +1059,10 @@
   <project path="vendor/xiaomi/ishtar" name="proprietary_vendor_xiaomi_ishtar" remote="sado" />
   <project path="vendor/xiaomi/sm8550-common" name="proprietary_vendor_xiaomi_sm8550-common" remote="sado" />
 
+  <!-- Extra components -->
+  <project path="vendor/extra" name="android_vendor_extra" remote="sado" />
+  <project path="vendor/extra/facehal" name="android_vendor_extra_facehal" remote="sado" />
+
   <!-- Moment and status bar lyric components -->
   <project path="packages/apps/LyricFetchExt" name="platform_packages_apps_LyricFetchExt" remote="sado" />
   <project path="packages/apps/uwuSystemUI" name="platform_packages_apps_uwuSystemUI" remote="sado" />
