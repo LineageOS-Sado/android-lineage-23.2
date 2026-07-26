@@ -1062,6 +1062,7 @@
   <!-- Extra components -->
   <project path="vendor/extra" name="android_vendor_extra" remote="sado" />
   <project path="vendor/extra/facehal" name="android_vendor_extra_facehal" remote="sado" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="sado" />
 
   <!-- Moment and status bar lyric components -->
   <project path="packages/apps/LyricFetchExt" name="platform_packages_apps_LyricFetchExt" remote="sado" />

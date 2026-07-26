@@ -24,6 +24,6 @@ Replace `fuxi` with `ishtar` or `mars` to build another supported device.
 
 CI runners need enough disk space for Android 16 sources and build output, Git
 LFS support, Java and the standard LineageOS build dependencies. `--git-lfs`
-is required because the MiuiCamera and proprietary repositories contain LFS
-objects. Device proprietary repositories are fetched from TheMuppets and
+is required because the GMS, MiuiCamera and proprietary repositories contain
+LFS objects. Device proprietary repositories are fetched from TheMuppets and
 LineageOS-Sado.
